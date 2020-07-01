@@ -8,7 +8,7 @@
     margin: auto;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 500;
 }
 h1 span{
@@ -20,7 +20,7 @@ p{
     color: #333;
 }
 section{
-    height: 600px;
+    height: 700px;
 }
 img{
     width: 100%;
@@ -43,40 +43,48 @@ color: #fff;
 border-radius: 5px;
 }
 .align{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .top-banner{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .half-width{
     width: 50%;
     float: left;
+    padding: 50px 0;
 }
 .half-width img{
-    width: 100%;
+    width: 75%;
 }
 .biography-area{
     background-image: url(images/biography-bg.png);
+    background-size: contain;
 }
 .latest-wrok{
     background-image: url(images/latest-work-bg.png);
+    background-size:;
 }
-.width{
+.work-width{
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
+}
+.work-width img{
+    width: 100%;
 }
 
 .align-text{
    text-align: center;
+   padding: 35px;
 }
 
 .footer-area{
     background-image: url(images/footer-bg.png);
     height: 700px;
+    background-size:;
 }
 .client{
     text-align: center;
