@@ -64,7 +64,7 @@ border-radius: 5px;
 }
 .latest-wrok{
     background-image: url(images/latest-work-bg.png);
-    background-size:;
+    height: 500px;
 }
 .work-width{
     float: left;
@@ -84,7 +84,7 @@ border-radius: 5px;
 .footer-area{
     background-image: url(images/footer-bg.png);
     height: 700px;
-    background-size:;
+    background-size: contain;
 }
 .client{
     text-align: center;
@@ -160,6 +160,7 @@ footer{
     width: 100%;
     margin-top: 50px;
     background: #EC4B81;
+    text-align: center;
 }
 footer p{
     margin: 0px;
