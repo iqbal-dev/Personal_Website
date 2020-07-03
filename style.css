@@ -56,7 +56,7 @@ border-radius: 5px;
     padding: 50px 0;
 }
 .half-width img{
-    width: 75%;
+    width: 100%;
 }
 .biography-area{
     background-image: url(images/biography-bg.png);
